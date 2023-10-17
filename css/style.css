@@ -197,6 +197,33 @@ body {
     border-right: 0;
 }
 
+.table-data tr th:first-child,
+.table-data tr td:first-child {
+    position: relative;
+}
+
 .table-data tr:last-child td {
     border-bottom: 0;
+}
+
+.origin-checkbox {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.custom-checkbox {
+    width: 23px;
+    height: 23px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.origin-checkbox:checked ~ .custom-checkbox {
+    background-color: #000000;
 }
