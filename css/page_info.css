@@ -258,8 +258,18 @@ body {
     column-gap: 60px;
 }
 
-.tab-info-left p:not(:last-child),
-.tab-info-right p:not(:last-child) {
+.info-left-list {
+    max-width: 40%;
+    width: 100%;
+}
+
+.nfo-right-list {
+    max-width: 60%;
+    width: 100%;
+}
+
+.info-left-list li:not(:last-child),
+.info-right-list li:not(:last-child) {
     margin-bottom: 15px;
 }
 
