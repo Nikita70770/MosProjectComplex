@@ -1,0 +1,25 @@
+.popup-message {
+    max-width: 300px;
+    width: 100%;
+    padding: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* background-color: #fbfbfb; */
+    /* background-color: #f8f4ff; */
+    background-color: #f8f8ff;
+}
+
+.popup-msg-cross {
+    width: 24px;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.popup-message-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

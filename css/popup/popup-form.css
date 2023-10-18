@@ -1,0 +1,46 @@
+.form-popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+}
+
+.form-container {
+    max-width: 300px;
+    width: 100%;
+    padding: 60px 40px 40px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.popup-form-cross {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.inpt {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.btn-add {
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}

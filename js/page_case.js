@@ -47,12 +47,12 @@ const showMainTab = () => {
     for (let key in impData.keysMainInfo) {
         keyItem = document.createElement('li');
         keyItem.innerHTML = impData.keysMainInfo[key];
-        infoLeftList.append(keyItem);
+        infoLeftList.appendChild(keyItem);
     }
     for (let key in impData.mainInfo) {
         value = document.createElement('li');
         value.innerHTML = impData.mainInfo[key];
-        infoRightList.append(value);
+        infoRightList.appendChild(value);
     }
 };
 
@@ -65,12 +65,12 @@ const showObjectsTab = () => {
     for (let key in impData.keysObject) {
         keyItem = document.createElement('li');
         keyItem.innerHTML = impData.keysObject[key];
-        infoLeftList.append(keyItem);
+        infoLeftList.appendChild(keyItem);
     }
     for (let key in impData.dataObject) {
         value = document.createElement('li');
         value.innerHTML = impData.dataObject[key];
-        infoRightList.append(value);
+        infoRightList.appendChild(value);
     }
 };
 
@@ -83,11 +83,11 @@ const showMaterialsTab = () => {
     for (let key in impData.keysMaterial) {
         keyItem = document.createElement('li');
         keyItem.innerHTML = impData.keysMaterial[key];
-        infoLeftList.append(keyItem);
+        infoLeftList.appendChild(keyItem);
     }
     for (let key in impData.dataMaterial) {
         value = document.createElement('li');
         value.innerHTML = impData.dataMaterial[key];
-        infoRightList.append(value);
+        infoRightList.appendChild(value);
     }
 };

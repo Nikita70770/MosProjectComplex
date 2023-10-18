@@ -112,6 +112,7 @@ body {
 
 .list-item {
     padding: 22px 8px;
+    cursor: pointer;
     text-align: center;
 }
 
@@ -198,11 +199,12 @@ body {
 .tab-btn {
     margin-right: -1px;
     padding: 15px 20px;
-    border-top: 1px solid #000000;
-    border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     border-top-left-radius: 4px;
     border-top-right-radius: 23.5px;
+    cursor: pointer;
 }
 
 .tab-btn:first-child {
@@ -210,12 +212,12 @@ body {
 }
 
 .tab-btn:last-child {
-    border-right: 1px solid #000000;
+    border-right: 1px solid #000;
 }
 
 .tab-btn.active {
     color: #fff;
-    background-color: #000000;
+    background-color: #000;
 }
 
 .content-tab {
@@ -279,7 +281,8 @@ body {
     display: block;
     margin: 85px auto 0;
     padding: 20px 0;
+    cursor: pointer;
     color: #fff;
     border-radius: 6px;
-    background-color: #000000;
+    background-color: #000;
 }
