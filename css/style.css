@@ -217,14 +217,17 @@ body {
     opacity: 0;
 }
 
+.main-custom-checkbox,
 .custom-checkbox {
     width: 23px;
     height: 23px;
     margin: 0 auto;
     border: 1px solid #000000;
     border-radius: 5px;
+    background-color: #fff;
 }
 
+.origin-checkbox:checked ~ .main-custom-checkbox,
 .origin-checkbox:checked ~ .custom-checkbox {
     background-color: #000000;
 }
